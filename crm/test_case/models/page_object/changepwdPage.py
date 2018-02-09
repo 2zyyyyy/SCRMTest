@@ -6,13 +6,13 @@ from models.page_object.loginPage import Login
 
 
 class ChangePwd(Page):
-    url = '/login.html'
-    cac_loc = (By.XPATH, '//*[@id="side-menu"]/li[9]/a/span[1]')
-    changePwd_loc = (By.XPATH, '//*[@id="side-menu"]/li[9]/ul/li/a')
-    oldPwd_loc = (By.ID, 'oldpwd')
-    newPwd1_loc = (By.ID, 'pwd1')
-    newPwd2_loc = (By.ID, 'pwd2')
-    savebtn_loc = (By.ID, 'savePwd')
+    # url = '/login.html'
+    cac_loc = (By.XPATH, '//*[@id="side-menu"]/li[9]/a/span[1]')  # 账户管理
+    changePwd_loc = (By.XPATH, '//*[@id="side-menu"]/li[9]/ul/li/a')  # 修改密码
+    oldPwd_loc = (By.ID, 'oldpwd')  # 原始密码
+    newPwd1_loc = (By.ID, 'pwd1')  # 新密码
+    newPwd2_loc = (By.ID, 'pwd2')  # 确认新密码
+    savebtn_loc = (By.ID, 'savePwd')  # 保存
 
     # Action
     def cac_enter(self):

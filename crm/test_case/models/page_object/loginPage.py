@@ -9,9 +9,9 @@ class Login(Page):
     小旺猫系统用户登录界面
     '''
     url = '/login.html'
-    username_loc = (By.XPATH, '//*[@id="email"]')
-    password_loc = (By.XPATH, '//*[@id="pwd"]')
-    btn_loc = (By.ID, 'loginBtn')
+    username_loc = (By.XPATH, '//*[@id="email"]')  # 用户名
+    password_loc = (By.XPATH, '//*[@id="pwd"]')  # 密码
+    btn_loc = (By.ID, 'loginBtn')  # 登录
 
     # Acitons
     def login_username(self, username):
