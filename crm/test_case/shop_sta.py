@@ -14,6 +14,8 @@ class ShopNameTest(myunit.MyTest):
 
     def test_setting_1(self):
         Login(self.driver).user_login()
+        A = Shop.select_shop(0)
+        self.shopName_verify(A, 'aaa', 'qqq')
 
 
 if __name__ == '__main__':
