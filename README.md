@@ -9,5 +9,7 @@ http://crm.xiaowangmao.com 自动化测试项目,目前实现部分功能自动�
 
 3、可拓展功能：(1)分布式运行脚本。(2)Jenkins可持续集成。
 
+ ![image](https://github.com/2zyyyyy/SCRMTest/blob/master/crm/report/images/测试报告截图.png)
+
 
 
