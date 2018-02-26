@@ -1,7 +1,7 @@
 # SCRMTest
 小旺猫SCRM管理系统自动化测试
 
-www.crm.xiaowangmao.com 自动化测试项目,目前实现部分功能自动化。
+http://crm.xiaowangmao.com 自动化测试项目,目前实现部分功能自动化。
 
 1、使用Page Object模式设计用例。
 
