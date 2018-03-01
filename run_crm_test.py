@@ -10,9 +10,9 @@ import os
 
 # ==========定义发送邮件==========
 def send_mail(file_new):
-    from_addr = 'android4google@163.com'
-    from_pass = 'zhangyun0714'
-    to_addr = '309739685@qq.com'
+    from_addr = 'xxxxxx@163.com'
+    from_pass = 'xxxxxx'
+    to_addr = 'xxxxxx@qq.com'
     smtp_server = 'smtp.163.com'
 
     f = open(file_new, 'rb')
