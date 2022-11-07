@@ -1,7 +1,7 @@
 # SCRMTest
-小旺猫SCRM管理系统自动化测试
+管理后台Web Ui自动化测试
 
-http://crm.xiaowangmao.com 自动化测试项目,目前实现部分功能自动化。
+使用python+selenium+unittest实现的 web自动化测试项目,目前完成部分功能自动化。
 
 1、使用Page Object模式设计用例。
 
